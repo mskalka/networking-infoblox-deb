@@ -1,0 +1,52 @@
+[DEBREATE-0.7.13]
+<<CTRL>>
+Package: networking-infoblox
+Version: 12.0.0
+Maintainer: Michael Skalka <michael.skalka@canonical.com>
+Architecture: amd64
+Priority: optional
+Depends: python
+
+<</CTRL>>
+<<FILES>>
+1
+/home/ubuntu/networking-infoblox-12.0.0/networking_infoblox -> networking_infoblox -> /usr/lib/python2.7/dist-packages/
+/home/ubuntu/networking-infoblox-12.0.0/networking_infoblox.egg-info -> networking_infoblox.egg-info -> /usr/lib/python2.7/dist-packages/
+/home/ubuntu/infoblox-client-0.4.20/infoblox_client -> infoblox_client -> /usr/lib/python2.7/dist-packages/
+/home/ubuntu/infoblox-client-0.4.20/infoblox_client.egg-info -> infoblox_client.egg-info -> /usr/lib/python2.7/dist-packages/
+/home/ubuntu/networking-infoblox-12.0.0/etc/init.d/infoblox-ipam-agent* -> infoblox-ipam-agent -> /etc/init.d/
+/home/ubuntu/networking-infoblox-12.0.0/usr/local/bin/create_ea_defs* -> create_ea_defs -> /usr/local/bin
+/home/ubuntu/networking-infoblox-12.0.0/usr/local/bin/infoblox-ipam-agent* -> infoblox-ipam-agent -> /usr/local/bin
+/home/ubuntu/networking-infoblox-12.0.0/usr/local/bin/infoblox_grid_sync* -> infoblox_grid_sync -> /usr/local/bin
+<</FILES>>
+<<SCRIPTS>>
+<<PREINST>>
+0
+<</PREINST>>
+<<POSTINST>>
+0
+<</POSTINST>>
+<<PRERM>>
+0
+<</PRERM>>
+<<POSTRM>>
+0
+<</POSTRM>>
+<</SCRIPTS>>
+<<CHANGELOG>>
+<<DEST>>DEFAULT<</DEST>>
+
+<</CHANGELOG>>
+<<COPYRIGHT>>
+Copyright © 2018 Michael Skalka michael.skalka@canonical.com
+/usr/share/common-licenses/Apache-2.0
+<</COPYRIGHT>>
+<<MENU>>
+0
+<</MENU>>
+<<BUILD>>
+1
+1
+1
+strip
+<</BUILD>>
